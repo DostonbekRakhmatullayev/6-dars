@@ -1,0 +1,32 @@
+.myspace {
+  margin-top: 150px;
+  &__inner {
+    justify-content: space-between;
+  }
+  
+  &__img {
+    margin-right: 94px;
+  }
+  
+  &__check {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+  }
+  
+  &__headeing {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+  }
+  
+  &__text {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    color: #22343D;
+  }
+  
+}

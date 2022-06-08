@@ -1,0 +1,56 @@
+.management {
+  margin-top: 230px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ &__check {
+   margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;  
+ }
+
+ &__headeing {
+   margin-top: 8px;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+ }
+
+ &__accessory {
+   margin-top: 25px; 
+   margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+ }
+
+ &__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;  
+ }
+
+ &__text-convenient {
+   max-width: 486px;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .management__wrapper {
+   display: flex;
+   flex-direction: column-reverse ;
+ }
+ .management__amico {
+   width: 349px;
+   height: 306px;
+ }
+ .management__headeing {
+  margin-bottom: 0;
+ }
+}

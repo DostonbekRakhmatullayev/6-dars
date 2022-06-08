@@ -1,0 +1,45 @@
+.envection {
+  margin-top: 150px;
+  &__cheslo {
+    margin-left: 24px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #22343D;
+  }
+
+  &__text {
+    margin-left: 24px;
+font-weight: 700;
+font-size: 24px;
+line-height: 40px;
+color: #22343D;
+  }
+
+  &__item {
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+  &__text-color {
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #02897A;
+  }
+
+  &__headenig {
+    font-weight: 700;
+font-size: 34px;
+line-height: 51px;
+color: #22343D;
+  }
+
+  &__convenience {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #22343D;
+  }
+}

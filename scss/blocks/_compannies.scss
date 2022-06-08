@@ -1,0 +1,30 @@
+.compannies {
+  margin-top: 157px;
+  &__inner {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 51px;
+    background: #02897A;
+border-radius: 32px;
+  }
+
+  &__text {
+    margin-top: 49px;
+    max-width: 510px;
+    font-weight: 600;
+font-size: 32px;
+line-height: 151.4%;
+color: #FFFFFF;
+  }
+
+  &__btn {
+    padding: 10px 34px;
+    background: #FFFFFF;
+border-radius: 8px;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #02897A;
+  }
+}

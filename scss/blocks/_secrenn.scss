@@ -1,0 +1,89 @@
+@media screen and (max-width: 400px) {
+.myspace__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.myspace__img {
+  margin-right: 0;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 319px;
+}
+
+.myspace__list {
+  padding: 0;
+}
+.myspace__item-text {
+  max-width: 287px;
+}
+
+.myspace__item {
+  justify-content: space-between;
+}
+
+.management__wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.marketing__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.marketing__img {
+  width: 90px;
+  height: 90px;
+}
+
+.marketing__title {
+  margin-right: 15px;
+}
+
+.envection__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.prices__list {
+  flex-direction: column;
+}
+
+.prices__item {
+  margin-bottom: 32px;
+}
+
+.evaluation__list {
+  flex-direction: column;
+}
+
+.evaluation__item {
+  margin-bottom: 32px;
+}
+
+.compannies__inner {
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer__box {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer__open {
+  margin-left: auto;
+  text-align: center  ;
+  margin-right: auto;
+}
+
+.footer__rights {
+  max-width: 75%;
+  margin-right: 0;
+}
+}

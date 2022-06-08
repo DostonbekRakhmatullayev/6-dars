@@ -1,0 +1,49 @@
+.footer {
+  margin-top: 150px;
+  &__item {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  &__link-resource {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+    
+  }
+  
+  &__link {
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #22343D;
+  }
+  
+  &__text {
+    max-width: 280px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+  }
+  
+  &__btn {
+    padding: 8px 15px;
+    background: #02897A;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  
+  &__rights {
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #22343D;
+  }
+}
