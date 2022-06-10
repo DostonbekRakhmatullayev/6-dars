@@ -47,46 +47,6 @@
     text-decoration-line: underline;
     color: #02897A;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .innovation__box {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  
-  .innovation__img-beg {
-    width: 338px;
-    height: 310px;
-  }
-  
-  .innovation__headeing {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 60px;
-    text-align: center;
-    color: #22343D;
-  }
-  
-  .innovation__text {
-    max-width: 326px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #22343D;
-  }
-  
-  .innovation__link {
-    margin-left: 0;
-    margin-right: 8px;
-    padding: 12px 22px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-  
   .innovation__link-video {
     
     margin-right: 0;

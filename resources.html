@@ -63,7 +63,7 @@
   <main>
     <section class="business">
       <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class="business__inner d-flex justify-content-between">
           <div>
             <h2 class="business__headeing">Great Business made with Product.</h2>
             <p class="business__text mb-3 mt-3">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
@@ -78,7 +78,7 @@
               <p class="business__flat">Join over <span class="text-success">4,000</span> + other</p>
             </div>
           </div>
-          <img src="./images/teligram.png" width="541" height="482" alt="">
+          <img class="business__img-beg" src="./images/teligram.png" width="541" height="482" alt="">
         </div>
       </div>
     </section> 
@@ -89,48 +89,48 @@
           <h3 class="envection__headenig text-center">Latest Stories</h3>
           <p class="envection__convenience mt-2 mb-4 text-center">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
           
-          <ul class="d-flex p-0 justify-content-between">
-            <li class="card p-0">
+          <ul class="latest-stories d-flex p-0 justify-content-between">
+            <li class="latest-stories__item card p-0">
               <img class="card-img-top" src="./images/envection.png" width="348" height="185" alt="...">
               <p class="envection__cheslo mt-3">By <strong>Wahid Ari</strong> |  03 March 2019</p>
               <p class="envection__text">Increasing Prosperity With Positive Thinking</p>
             </li>
-            <li class="card mx-4 p-0">
+            <li class="latest-stories__item card mx-4 p-0">
               <img class="card-img-top" src="./images/envection.png" width="348" height="185" alt="...">
               <p class="envection__cheslo mt-3">By <strong>Wahid Ari</strong> |  03 March 2019</p>
               <p class="envection__text">Increasing Prosperity With Positive Thinking</p>
             </li>
-            <li class="card p-0">
+            <li class="latest-stories__item card p-0">
               <img class="card-img-top" src="./images/envection.png" width="348" height="185" alt="...">
               <p class="envection__cheslo mt-3">By <strong>Wahid Ari</strong> |  03 March 2019</p>
               <p class="envection__text">Increasing Prosperity With Positive Thinking</p>
             </li>
           </ul>
           
-          <ul class="d-flex p-0 justify-content-between">
-            <li class="card p-0">
+          <ul class="latest-stories d-flex p-0 justify-content-between">
+            <li class="card latest-stories__item p-0">
               <img class="card-img-top" src="./images/envection.png" width="348" height="185" alt="...">
               <p class="envection__cheslo mt-3">By <strong>Wahid Ari</strong> |  03 March 2019</p>
               <p class="envection__text">Increasing Prosperity With Positive Thinking</p>
             </li>
-            <li class="card mx-4 p-0">
+            <li class="card latest-stories__item mx-4 p-0">
               <img class="card-img-top" src="./images/envection.png" width="348" height="185" alt="...">
               <p class="envection__cheslo mt-3">By <strong>Wahid Ari</strong> |  03 March 2019</p>
               <p class="envection__text">Increasing Prosperity With Positive Thinking</p>
             </li>
-            <li class="card p-0">
+            <li class="card latest-stories__item p-0">
               <img class="card-img-top" src="./images/envection.png" width="348" height="185" alt="...">
               <p class="envection__cheslo mt-3">By <strong>Wahid Ari</strong> |  03 March 2019</p>
               <p class="envection__text">Increasing Prosperity With Positive Thinking</p>
             </li>
           </ul>
-          <button class=" btn d-flex align-items-center justify-content-center me-lg-auto m-md-auto  text-center">
+          <button class="latest-stories__btn  btn d-flex align-items-center justify-content-center me-lg-auto m-md-auto  text-center">
             More Stories
             <img class="text-center m-lg-3" src="./images/circle_right.png" width="20" height="20" alt="">
           </button>
         </div>
       </div>
-    </section>
+    </section> 
     
     <section>
       <div class="container">
@@ -142,7 +142,7 @@
           </p>
           <ul class="d-flex align-items-center justify-content-center me-lg-auto m-md-auto p-0 pb-5">
             <li>
-              <a ref="">
+              <a href="">
                 <img  src="./images/instagram.svg" width="40" height="40" alt="">
               </a>
             </li>
@@ -160,16 +160,17 @@
             </li>
           </ul> 
           <img class="karta text-center me-lg-auto  m-md-auto" src="./images/karta.png" width="871" height="323" alt="">
-          <div class="card w-75 p-5 open  me-lg-auto m-md-auto">
-            <h4 class="suggestions__headeing text-center">Send a message</h4>
-            <input class="form-control rounded-pill" type="number" placeholder="Your Name">
-            <input class="form-control mb-5 mt-5 rounded-pill" type="text" placeholder="Your Email">
-            <input class="input__message form-control" type="text" placeholder="Your Message">
-            <button class="sebd__btn btn text-start">Send</button>
+          <div class="form__input card w-75 p-5  me-lg-auto m-md-auto">
+            <form class="js-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input class="form-control" type="text" placeholder="Your Name">
+              <input class="form-control my-4" type="email" placeholder="Your Email">
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+              <button class="form__btn btn" type="submit">Send</button>
+            </form>
           </div>
         </div>
       </div>
-    </section>
+    </section> 
   </main>
   
   <footer class="footer">
@@ -180,15 +181,15 @@
             <img class="me-2" src="./images/product1.png" width="32" height="29" alt="">
             <img src="./images/Product.png" width="115" height="25" alt="">
           </a> 
-          <ul class="d-flex align-items-center p-0">
+          <ul class=" d-flex align-items-center p-0">
             <li class="m-lg-2">
-              <a ref="">
-                <img src="./images/instagram.svg" width="40" height="40" alt="">
+              <a class="footer__list" ref="">
+                <img class="footer__list" src="./images/instagram.svg" width="40" height="40" alt="">
               </a>
             </li>
             
             <li class="footer__item">
-              <a  href="">
+              <a cl  href="">
                 <img  src="./images/facebook.svg" width="40" height="40" alt="">
               </a>
             </li>
@@ -245,7 +246,7 @@
       </div>
       <p class="footer__rights text-center mt-3">Made With Love By Figmaland All Right Reserved </p> 
     </div>
-  </footer>
+  </footer> 
   
   <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>

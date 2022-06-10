@@ -52,23 +52,3 @@
     text-align: center;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .quality__open {
-    display: block;
-  }
-
-  .quality__list {
-    display: block;
-    text-align: center;
-  }
-
-  .quality__text {
-    max-width: 100%;
-  }
-
-  .quality__img {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}

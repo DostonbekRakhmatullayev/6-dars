@@ -41,16 +41,3 @@
  }
 }
 
-@media screen and (max-width: 400px) {
- .management__wrapper {
-   display: flex;
-   flex-direction: column-reverse ;
- }
- .management__amico {
-   width: 349px;
-   height: 306px;
- }
- .management__headeing {
-  margin-bottom: 0;
- }
-}
