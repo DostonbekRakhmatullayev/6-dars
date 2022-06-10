@@ -1554,12 +1554,11 @@ agement__headeing {
   color: #FFFFFF;
 }
 
-.karta {
+.karkarte__imgta {
   margin-bottom: 120px;
 }
 
-.form__btn {
-  margin-top: 40px;
+.form__input {
   padding: 18px 54px;
   background: #02897A;
   border-radius: 35px;
